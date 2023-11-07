@@ -32,3 +32,6 @@ cursor.execute('DELETE FROM alunos WHERE id = 1')
 cursor.execute('SELECT * FROM alunos')
 alunos = cursor.fetchall()
 print(alunos)  
+
+# Fim do código.
+exit
